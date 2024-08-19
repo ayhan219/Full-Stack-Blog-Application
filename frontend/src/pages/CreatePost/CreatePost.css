@@ -1,0 +1,64 @@
+.create-post-container {
+    width: calc(100% - 80px); /* Full width minus margin */
+    margin: 40px auto; /* Center the container */
+    padding: 40px;
+    background-color: #ecf0f1; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 800px; /* Limit max width for readability */
+}
+
+.create-post-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #2c3e50; /* Dark text color */
+}
+
+.create-post-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #34495e; /* Slightly darker text color */
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #bdc3c7; /* Light border */
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for inputs */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #1abc9c; /* Green border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.create-post-btn {
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #1abc9c; /* Green background */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.create-post-btn:hover {
+    background-color: #16a085; /* Darker green on hover */
+}

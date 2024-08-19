@@ -1,0 +1,62 @@
+.navbar-container {
+    width: calc(100% - 80px); /* Fixed calc syntax */
+    height: 100px;
+    margin: 20px 40px;
+    background-color: blue;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow for depth */
+    padding: 0 20px; /* Added padding for inner spacing */
+}
+
+.navbar-left h4 {
+    font-size: 50px;
+    color: white; /* Added color to the text */
+    margin: 0; /* Removed default margin */
+}
+
+.navbar-mid .search {
+    display: flex;
+    position: relative;
+    align-items: center; /* Center search input and icon vertically */
+}
+
+.search-icon {
+    font-size: 30px;
+    position: absolute;
+    left: 10px; /* Fixed missing px unit */
+    color: gray; /* Added color for the search icon */
+}
+
+.search input {
+    padding: 10px 10px 10px 50px; /* Added padding, with space for the search icon */
+    border-style: none;
+    border-radius: 25px; /* Rounded corners */
+    outline: none; /* Removed the outline */
+    background-color: #f0f0f0; /* Added background color */
+    width: 250px; /* Set a specific width */
+    font-size: 16px; /* Added font size */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for input */
+}
+
+.navbar-right {
+    display: flex;
+    gap: 30px; /* Added spacing between navbar-right items */
+    align-items: center; /* Ensure items are centered vertically */
+}
+
+.navbar-right a, .navbar-right button {
+    color: white; /* Text color for links and buttons */
+    font-size: 18px; /* Set font size */
+    text-decoration: none; /* Remove underline from links */
+    background: none; /* Remove background from buttons */
+    border: none; /* Remove border from buttons */
+    cursor: pointer; /* Add pointer cursor for buttons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-right a:hover, .navbar-right button:hover {
+    color: lightgray; /* Change color on hover */
+}

@@ -1,0 +1,54 @@
+.header-login-container {
+    width: calc(100% - 80px);
+    margin: 20px auto;
+    padding: 40px 20px;
+    background-color: #ecf0f1; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+
+.header-login-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark text color */
+    text-align: center;
+}
+
+.header-login-subtitle {
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #7f8c8d; /* Subtle text color */
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between blog posts */
+}
+
+.blog-post {
+    background-color: #ffffff; /* White background for posts */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #34495e; /* Darker text color for titles */
+}
+
+.blog-excerpt {
+    font-size: 16px;
+    color: #7f8c8d; /* Subtle text color for excerpts */
+}
